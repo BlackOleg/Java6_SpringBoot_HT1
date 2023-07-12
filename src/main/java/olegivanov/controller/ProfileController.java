@@ -1,6 +1,7 @@
-package olegivanov.java6_springboot_ht1.controller;
+package olegivanov.controller;
 
-import olegivanov.java6_springboot_ht1.profiles.SystemProfile;
+
+import olegivanov.profiles.SystemProfile;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,5 +18,10 @@ public class ProfileController {
     @GetMapping("profile")
     public String getProfile() {
         return profile.getProfile();
+    }
+
+    @GetMapping
+    public String hello() {
+        return "Just to say Hello from my first server!!!";
     }
 }

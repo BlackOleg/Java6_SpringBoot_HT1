@@ -1,4 +1,4 @@
-package olegivanov.java6_springboot_ht1.profiles;
+package olegivanov.profiles;
 
 public interface SystemProfile {
     String getProfile();

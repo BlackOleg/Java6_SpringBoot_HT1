@@ -1,4 +1,4 @@
-package olegivanov.java6_springboot_ht1;
+package olegivanov;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package olegivanov.java6_springboot_ht1.profiles;
+package olegivanov.profiles;
 public class ProductionProfile implements SystemProfile {
     @Override
     public String getProfile() {

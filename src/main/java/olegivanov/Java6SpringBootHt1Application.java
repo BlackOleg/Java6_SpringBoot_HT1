@@ -1,4 +1,4 @@
-package olegivanov.java6_springboot_ht1;
+package olegivanov;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Java6SpringBootHt1Application {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(Java6SpringBootHt1Application.class, args);
 	}
 
